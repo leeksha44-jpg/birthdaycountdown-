@@ -11,8 +11,8 @@ date_birth = dt.datetime(year, month, day)
 
 weekday_names = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 weekday_num = date_birth.weekday()
-print('You may have forgotten which day of the week it was ...')
-print('But I can tell you ... it was a ...', end = ' ')
+print('i mean u prbly would have forgotten the day by now')
+print('But I can tell you ... it was a ...!', end = ' ')
 print(weekday_names[weekday_num])
 
 
@@ -36,6 +36,8 @@ print()
 print()
 
 dd = next_bday - current_time
+
+("press enter on ur keeboard to find out long thw wait is for ur next birtday")
 
 days_left = dd.days
 total_seconds_left = dd.seconds
@@ -75,3 +77,4 @@ while next_bday > current_time:
     print('Your next birthday is', days_left, 'days', hrs_left, 'hrs', minutes_left, 'mins', seconds_left, 'secs away.', end = '\r')
 
     time.sleep(1)
+
